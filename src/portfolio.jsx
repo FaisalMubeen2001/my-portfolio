@@ -44,6 +44,22 @@ const Portfolio = () => {
   // Data - Replace with your own information
   const projects = [
     {
+      title: "NowWeather App",
+      description: "A modern, real-time weather application with stunning glassmorphism UI and dynamic weather effects. Features city search with autocomplete, 7-day forecast, hourly predictions, temperature unit toggle (°C/°F), and live local time display. Includes 31 comprehensive tests covering weather conditions, formatting, and hook behavior.",
+      tech: ["React", "Vite", "OpenWeatherMap API", "Axios", "Vitest", "CSS Glassmorphism"],
+      github: "https://github.com/FaisalMubeen2001/NowWeather",
+      live: "https://weatherapp-nowweather.netlify.app/",
+      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=500&fit=crop"
+    },
+    {
+      title: "News Aggregator",
+      description: "An AI-powered news aggregator that fetches, summarizes, and analyzes sentiment of articles across multiple categories. Features real-time news from NewsAPI, AI summarization using Groq (LLaMA 3.3), sentiment analysis, daily email digest, and automated fetching every 30 minutes. Includes CI/CD pipeline and Docker deployment.",
+      tech: ["Python", "FastAPI", "React", "Tailwind CSS", "Groq AI", "NewsAPI", "Docker"],
+      github: "https://github.com/FaisalMubeen2001/News-Aggregator",
+      live: "https://newsaggregatorproj.netlify.app",
+      image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=500&fit=crop"
+    },
+    {
       title: "Smart Expense Tracker",
       description: "A full-stack personal finance tracker with budget alerts and interactive analytics. Features real-time expense tracking, category-based budgeting, and visual spending patterns. Improved mobile responsiveness to 100% and reduced page rendering time by ~25%.",
       tech: ["React", "JavaScript", "CSS", "Vite"],
@@ -79,20 +95,20 @@ const Portfolio = () => {
   };
 
   const experiences = [
-  {
-    role: "Trainee Associate",
-    company: "TechnoGen India, Hyderabad",
-    period: "May 2025 - Present",
-    description: "Currently a TL of a 5-member ServiceNow Team. \nServiceNow Administration: Configured platform modules and managed user administration, groups and roles.\nFull-stack Development: Developed web applications using React & JS, reducing load times by 40%.\nCloud Architecture: Built hands-on projects demonstrating scalable frontend and AWS-based architecture.\nAgile Collaboration: Delivered full-stack modules within sprint timelines in a 3-member team."
-  }
-  // Add more experiences here if needed
-  // {
-  //   role: "Your Previous Role",
-  //   company: "Company Name",
-  //   period: "Start - End",
-  //   description: "What you did..."
-  // }
-];
+    {
+      role: "Trainee Associate",
+      company: "TechnoGen India, Hyderabad",
+      period: "May 2025 - Present",
+      description: "Currently a TL of a 5-member ServiceNow Team. \nServiceNow Administration: Configured platform modules and managed user administration, groups and roles.\nFull-stack Development: Developed web applications using React & JS, reducing load times by 40%.\nCloud Architecture: Built hands-on projects demonstrating scalable frontend and AWS-based architecture.\nAgile Collaboration: Delivered full-stack modules within sprint timelines in a 3-member team."
+    }
+    // Add more experiences here if needed
+    // {
+    //   role: "Your Previous Role",
+    //   company: "Company Name",
+    //   period: "Start - End",
+    //   description: "What you did..."
+    // }
+  ];
 
   return (
     <div className="portfolio-container">
@@ -199,15 +215,15 @@ const Portfolio = () => {
                   <div className="stat-label">Technologies Used</div>
                 </div>
               </div>
-              <a 
-  href="/Faisal_Mubeen_Resume.pdf" 
-  download="Faisal_Mubeen_Resume.pdf"
-  className="btn-download"
-  style={{ textDecoration: 'none', color: 'inherit' }}
->
-  <Download size={18} />
-  Download Resume
-</a>
+              <a
+                href="/Faisal_Mubeen_Resume.pdf"
+                download="Faisal_Mubeen_Resume.pdf"
+                className="btn-download"
+                style={{ textDecoration: 'none', color: 'inherit' }}
+              >
+                <Download size={18} />
+                Download Resume
+              </a>
             </div>
             <div className="about-image">
               <div className="image-frame">
