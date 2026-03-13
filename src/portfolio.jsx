@@ -86,13 +86,15 @@ const Portfolio = () => {
   ];
 
   const skills = {
-    "ServiceNow & ITSM": ["ServiceNow CSA", "ITSM", "Flow Designer", "User Administration", "Incident Management", "Knowledge Base"],
-    "Frontend Development": ["React", "JavaScript", "HTML", "CSS", "Vite", "Responsive Design"],
-    "Backend & Database": ["Python", "Flask", "Node.js", "MySQL", "REST APIs", "SQL"],
-    "Cloud, AWS & ML/AI": ["AWS EC2", "AWS S3", "CloudFormation", "AWS Lex", "AWS Comprehend", "numpy", "matplotlib", "seaborn", "Data Analysis"],
-    "Programming Languages": ["Python", "JavaScript", "Java", "C++", "C"],
-    "Tools & Platforms": ["Git", "VS Code", "Jupyter Notebook", "Agile/Scrum", "ServiceNow Platform"]
-  };
+  "ServiceNow & ITSM": ["ServiceNow CSA", "ITSM", "Flow Designer", "User Administration", "Incident Management", "Knowledge Base"],
+  "Frontend Development": ["React", "JavaScript", "HTML", "CSS", "Vite", "Responsive Design"],
+  "Backend & Database": ["Python", "Flask", "Node.js", "MySQL", "REST APIs", "SQL"],
+  "Cloud & AWS": ["AWS EC2", "AWS S3", "DynamoDB", "CloudFormation", "AWS Lex", "AWS Comprehend"],
+  "Machine Learning & AI": ["scikit-learn", "pandas", "numpy", "matplotlib", "seaborn", "Data Analysis"],
+  "Programming Languages": ["Python", "JavaScript", "Java", "C++", "C"],
+  "DevOps & Tools": ["Docker", "Git", "Postman", "VS Code", "Jupyter Notebook", "GitHub Actions"],
+  "Methodologies": ["Agile/Scrum", "CI/CD", "Testing"]
+};
 
   const experiences = [
     {
